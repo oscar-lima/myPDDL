@@ -1,11 +1,24 @@
 #!/bin/bash
 
-# Specify the basics
-planner="~/Documents/plan"
+# the plan to use (executable)
+planner="rosrun ffha ffha"
+
+# pddl inputs to the planner
 domain="domain.pddl"
-problem="p01.pddl"
+problem="problems/p01.pddl"
+
+# the filename for the output of the plan to be saved
+plan="plan.txt"
 
 # Plan!
-$($planner -o $domain -f $problem)
+$planner -o $domain -f $problem > solutions/$plan
 
-$SHELL
+echo "---------PLAN OUTPUT------------"
+
+# show the plan to the user:
+cat solutions/plan.txt
+
+echo "--------------------------------"
+
+# tell user that the planner output has been saved
+echo "planner output saved as - $plan - in solutions folder"
