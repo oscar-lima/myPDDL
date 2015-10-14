@@ -1,2 +1,9 @@
 Comments.tmPreferences.cache
 pddl.tmLanguage.cache
+
+# if there is error in the java jar the output will be putted as errors.log, we do not want to commit that
+errors.log
+
+# ignoring temporary files
+*~
+*.*~
