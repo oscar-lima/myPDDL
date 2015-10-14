@@ -8,6 +8,6 @@ Usage:
 #######
 
 myPDDL:
-new <project-name>              Create a PDDL project  
+new <project-name> location     Create a PDDL project  
 diagram <pddl-domain-file>      Display a PDDL type diagram
 distance <pddl-problem-file>    Calculate distances between objects 
