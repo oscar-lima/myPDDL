@@ -1,11 +1,12 @@
-"# FIXME: PDDL Project 
+PDDL Project
+============
 
 PDDL domain and problem files for ... 
 
 ## Description
 
-FIXME
+todo
 
 ## License
 
-Copyright © 2014 FIXME"
+Author: Oscar Lima, olima_84@yahoo.com
