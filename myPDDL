@@ -10,7 +10,7 @@
 
 # Set this path to the myPDDL folder
 # Don't use a trailing slash (right: /myPDDL, wrong: /myPDDL/)
-path=~/.config/sublime-text-2/Packages/myPDDL
+path=~/.config/sublime-text-3/Packages/User/myPDDL
 
 # Name of the myPDDL jar file
 mypddl=mypddl-1.0.0.jar
@@ -45,7 +45,7 @@ pddl_dir="$3"
 
 # Image viewer for displaying type diagram (e.g. gimp, eog):
 # Use "auto" for displaying the diagram in a JFrame
-viewer=auto
+viewer=eog
 
 # Revision control activated (yes or no)?
 revisioncontrol=yes
